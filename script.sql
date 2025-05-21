@@ -15,4 +15,4 @@ Senha varchar(50) not null
 -- Consultando os dados do banco
 select * from Usuarios;
 
-	
+insert into Usuarios (Nome, Email, Senha) values ('Samuel', 'sampvasc@gmail.com', 'viado123');
