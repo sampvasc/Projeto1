@@ -21,7 +21,7 @@ namespace Projeto1.Repositorio
                 // Abre a conexão com o banco de dados MySQL.
                 conexao.Open();
                 // Cria um novo comando SQL para selecionar todos os campos da tabela 'Usuario' onde o campo 'Email' corresponde ao parâmetro fornecido.
-                MySqlCommand cmd = new("SELECT * FROM Usuario WHERE Email = @email", conexao);
+                MySqlCommand cmd = new("SELECT * FROM Usuarios WHERE Email = @email", conexao);
                 // Adiciona um parâmetro ao comando SQL para o campo 'Email', especificando o tipo como VarChar e utilizando o valor do parâmetro 'email'.
                 cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = email;
 

@@ -34,7 +34,7 @@ namespace Projeto1.Controllers
             {
                 // Autenticação bem-sucedida
                 // Redireciona o usuário para a action "Index" do Controller "Cliente".
-                return RedirectToAction("Index", "Cliente");
+                return RedirectToAction("Cliente", "Cliente");
             }
             /* Se a autenticação falhar (usuário não encontrado ou senha incorreta):
              Adiciona um erro ao ModelState. ModelState armazena o estado do modelo e erros de validação.
