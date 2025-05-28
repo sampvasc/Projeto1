@@ -53,5 +53,6 @@ namespace Projeto1.Repositorio
                 }
             }
         }
+        public Usuario AdicionarUsuario(string email, )
     }
 }
